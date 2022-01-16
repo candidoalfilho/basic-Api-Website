@@ -1,0 +1,39 @@
+body {
+margin:0;
+padding: 0;
+}
+
+header {
+text-align:center;
+margin-top:0;
+padding:20px;
+background-color: #362222;
+}
+
+h1 {
+color: #FFEDED;
+font-size: 3rem;
+font-family: Arial;
+}
+
+h3 {
+color: #FFF9F9;
+font-size: 1.5rem;
+font-family: Arial;
+}
+
+.sentence{
+margin: 2rem;
+padding:20px 40px;
+font-style:italic;
+font-size:2.4rem;
+border: 1px solid black;
+}
+
+.author {
+text-align:center;
+margin:2rem ;
+padding:20px 40px;
+font-style:italic;
+font-size:2rem;
+}

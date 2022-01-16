@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="icon" href="static/icons/icon.png"  type="image/icon type">
+    <title>Famous Quotes</title>
+
+</head>
+<body>
+<header>
+    <h1>Famous Quotes by Famous Authors</h1>
+    <br>
+    <h3>Every time you refresh this page, a new inspiring quote will appear.</h3>
+</header>
+<blockquote>
+    <div class="sentence">{{ body[1] }}</div>
+    <div class="author">- {{ body[2] }}</div>
+    <center>
+        <img src="{{ link }}" width="200">
+    </center>
+
+
+</blockquote>
+</body>
+</html>
